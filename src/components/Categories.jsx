@@ -10,7 +10,12 @@ function Categories({ items }) {
   return (
     <div className="categories">
       <ul>
-        <li className={activeItem === null ? "active" : ""} onClick={() => setActiveItem(null)}>Все</li>
+        <li
+          className={activeItem === null ? "active" : ""}
+          onClick={() => setActiveItem(null)}
+        >
+          Все
+        </li>
         {items &&
           items.map((item, index) => {
             return (
