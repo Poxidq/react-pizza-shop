@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-function Categories({ items }) {
+const Categories = React.memo(function Categories({ items, onClickItem }) { //React.memo(func) делает поверхностное сравнение изменений пропсов
   const [activeItem, setActiveItem] = useState(null);
 
   const onSelectItem = (index) => {
     setActiveItem(index);
+    onClickItem(index);
   };
 
   return (
@@ -12,7 +13,9 @@ function Categories({ items }) {
       <ul>
         <li
           className={activeItem === null ? "active" : ""}
-          onClick={() => setActiveItem(null)}
+          onClick={() => {
+            onSelectItem(null);
+          }}
         >
           Все
         </li>
@@ -21,7 +24,9 @@ function Categories({ items }) {
             return (
               <li
                 className={activeItem === index ? "active" : ""}
-                onClick={() => onSelectItem(index)}
+                onClick={() => {
+                  onSelectItem(index);
+                }}
                 key={`${item}__${index}`}
               >
                 {item}
@@ -31,6 +36,6 @@ function Categories({ items }) {
       </ul>
     </div>
   );
-}
+});
 
 export default Categories;

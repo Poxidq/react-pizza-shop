@@ -8,8 +8,6 @@ import store from "./redux/store"
 import App from "./App";
 import "./scss/app.scss";
 
-console.log(store.getState())
-
 ReactDOM.render(
   <React.StrictMode>
     <Router>
