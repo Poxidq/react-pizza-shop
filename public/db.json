@@ -2,17 +2,17 @@
   "pizzas": [
     {
       "id": 0,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+      "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-c1fHaQ1N71M%2FXTt6uM43XyI%2FAAAAAAAAUbk%2FWqfwsOAmuZwREEZ6hnvYv8IoO5Jq9VMjACLcBGAs%2Fs1600%2Fanime-girl-pizza01.jpg&f=1&nofb=1",
       "name": "Пепперони Фреш с перцем",
       "types": [0, 1],
       "sizes": [26, 30, 40],
       "price": 803,
       "category": 0,
       "rating": 4
-    },
+    },    
     {
       "id": 1,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpm1.narvii.com%2F6367%2F04a67cb51cdbb297b64467bc29f0257c5303a4fd_hq.jpg&f=1&nofb=1",
       "name": "Сырная",
       "types": [0],
       "sizes": [26, 40],
@@ -22,7 +22,7 @@
     },
     {
       "id": 2,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+      "imageUrl": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.wallpaperhi.com%2F2000x1335%2F20131106%2Fcode%2520geass%2520pizza%2520cc%2520anime%2520girls_www.wallpaperhi.com_50.jpg&f=1&nofb=1",
       "name": "Цыпленок барбекю",
       "types": [0],
       "sizes": [26, 40],
@@ -32,7 +32,7 @@
     },
     {
       "id": 3,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpm1.narvii.com%2F6178%2F88aac9932ffd1de6778e550a7c6563210692b925_hq.jpg&f=1&nofb=1",
       "name": "Кисло-сладкий цыпленок",
       "types": [1],
       "sizes": [26, 30, 40],
